@@ -1,0 +1,16 @@
+.accordionContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    height: 100vh;
+    margin-top: 20px;
+}
+
+.backButton {
+    margin-bottom: 20px; /* Add some spacing between the back button and the accordion */
+}
+
+.accordionWrapper {
+    width: 400px; /* Adjust the width as needed */
+}

@@ -1,0 +1,33 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.card {
+    background-color: #d17272;
+    border-radius: 10px;
+    padding: 20px;
+    width: 80%;
+    height: 100px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.card h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
